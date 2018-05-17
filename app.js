@@ -1,10 +1,10 @@
 var fs = require("fs");
 
 module.exports = {
-    npmexists: function(package){
-        if (fs.existsSync("./node_modules/"+package)) {
+    npmexists: function (package) {
+        if (fs.existsSync("./node_modules/" + package)) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
