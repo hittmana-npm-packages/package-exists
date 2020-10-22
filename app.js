@@ -1,5 +1,3 @@
-var fs = require("fs");
-
 module.exports = {
-    npmexists: package => require("fs").existsSync("./node_modules/" + package);
+    npmexists: package => require("fs").existsSync(require('path').join(__dirname, "node_modules", package))
 };

@@ -1,11 +1,8 @@
 {
   "name": "package-exists",
-  "version": "0.1.5",
+  "version": "1.1.0",
   "description": "Check if an npm module is installed",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "hittmana",
   "license": "ISC",
   "keywords": [
@@ -13,9 +10,16 @@
     "package",
     "exists"
   ],
+  "scripts": {
+    "test": "node test.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/hittmana-npm-packages/package-exists.git"
   },
-  "homepage": "https://github.com/hittmana-npm-packages/package-exists"
+  "homepage": "https://github.com/hittmana-npm-packages/package-exists",
+  "bugs": {
+    "url": "https://github.com/hittmana-npm-packages/package-exists/issues",
+    "email": "bismuthboss@gmail.com"
+  }
 }
