@@ -12,5 +12,10 @@
     "package-exists",
     "package",
     "exists"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hittmana-npm-packages/package-exists"
+  },
+  "homepage": "https://github.com/hittmana-npm-packages/package-exists"
 }
